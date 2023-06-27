@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Persnol Portfolio Website - Vansh Chawla</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/946fb1c4ab.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logobg.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#services'>Sevices</a></li>
+                <li><a href='#portfolio'>Portfolio</a></li>
+                <li><a href='#contact'>Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Cyber Security Engineer</p>
+            <h1>Hi, I'm a <span>Vansh Chawla</span><br>From Delhi</h1>
+    </div>
+</div>
+</div>
+<!-- ----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is <span>Vansh Chawla</span>. Born and bought up in amritsar but right now for  graduation, I am staying in delhi. Currently I am presuing my granduation  in BTECH CSE with specialization in Cyber Security in The Northcap University in gurugram. I belong to a nuclear family, I live with my parents and a younger sister did my schooling from my home town amritsar and I am passionate about latest technology like computers laptops and other gadgets.
+                    <br><br>
+                    Hobbies:-
+                    <br><br>
+                    Watching videos about the latest technology and listening music.
+                    <br><br>
+                    My strength is my family as they always encouraged me and I am punctual in my work.
+                    <br><br>
+                    My weakness is that I deal with situation in my way I don't opt for a shortcut as the longest route is less taken but it leads to success. 
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Cyber Security</span><br>Penetration Testing, VAPT, Burpsuite, SQL Injection, CTF's, Linux, Nmap, FTK, Volality, IDA Pro, Session Hijacking and Spoofing.</li>
+                        <li><span>IT Support</span><br>Harware & Software both remotly and physically.</li>
+                        <li><span>MS-Office</span><br>Office 365 , Microsoft Office and Internet Applications. </li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="experience">
+                    <ul>
+                        <li><span>06/2022 - 08/2022</span><br>Internship at National Technical Research Organization(NTRO)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>2023</span><br>BTECH CSE from The NorthCap University Gurugram</li>
+                        <li><span>2019</span><br>12th from Navjot Modern Sr. Sec. School Amritsar</li>
+                        <li><span>2017</span><br>10th Sun Valley Public High School Amritsar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div> 
+
+<!-- ----------services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1> 
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-firefox-browser"></i>
+            <h2>Penetration Testing</h2>
+            <p>In this we found and scan vulnerable websites to repiar it.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-network-wired"></i>
+            <h2>Network Security</h2>
+            <p>In this we uses these tools like Shodan, Nessus, Spoofing, Session Hijacking.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <h2>Digital Forensics & Malware Analysis</h2>
+            <p>In this we uses these tools like Volality, FTK, IDA Pro.</p>
+            <a href="#">Learn more</a>
+          </div>    
+        </div>
+    </div>
+</div>
+
+<!-- ----------portfolio---------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Network Security</h3>
+                    <p>Using cisco packet tracer. I have created the XYZ University networking system.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>RNG Tool Kit</h3>
+                    <p>In this command line interface app is used for Random Number Generators(RNG). I combine of all random generator tool kits.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Digital Forensics & Malware Analysis</h3>
+                    <p>Internship Project</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+</div>
+
+<!-- ----------contact---------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> vanshchawla72@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 9023042164</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100007089856442&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Vanshch77270122"><i class="fa-brands fa-square-twitter"></i></i></a>
+                    <a href="https://instagram.com/vansh_chawla72?igshid=ZDc4ODBmNjlmNQ=="><i class="fa-brands fa-square-instagram"></i></i></i></a>
+                    <a href="https://www.linkedin.com/in/vanshchawla/"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><span><i class="fa-solid fa-copyright"></i></span>Copyright @  Vansh. Made By<i class="fa-solid fa-face-smile"></i> Vansh Chawla</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx2Jv53RpXLisN7SZhH8ZoUNT6RKEzO-vZOmSpxuDNBF4MhVqfATx0BpAQigIsyq4V_/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+        seytTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
